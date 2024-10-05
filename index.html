@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/media.css">
+    <title>Jogo da Forca</title>
+</head>
+
+<body>
+
+    <h1 id="mensagem"></h1>
+
+    <main>
+
+        <div class="conteiner_imagens">
+
+            <figure>
+                <img class="forca" src="./SRC/imgs/forca.gif" alt="forca">
+                <img class="corpo a" src="./SRC/imgs/Novo Projeto (13).png" alt="cabeça">
+                <img class="corpo b" src="./SRC/imgs/Novo Projeto (14).png" alt="tronco">
+                <img class="corpo c" src="./SRC/imgs/Novo Projeto (15).png" alt="braco_esquerdo">
+                <img class="corpo d" src="./SRC/imgs/Novo Projeto (16).png" alt="braco_direito">
+                <img class="corpo e" src="./SRC/imgs/Novo Projeto (17).png" alt="perna_esquerda">
+                <img class="corpo f" src="./SRC/imgs/Novo Projeto (18).png" alt="perna_direita">
+            </figure>
+
+        </div>
+
+        <div class="conteiner_palavra">
+
+            <div>
+                <h2 id="titulo_dica"></h2>
+            </div>
+
+            <div>
+                <p id="palavra_oculta"></p>
+            </div>
+
+            <div>
+                <input id="input_texto" type="text" maxlength="1">
+            </div>
+
+            <div>
+                <button id="confirmar">Confirmar</button>
+            </div>
+
+        </div>
+
+    </main>
+
+    <h3>Palavras usadas</h3>
+
+    <div id="conteiner_usados" class="conteiner_usados">
+
+    </div>
+
+
+
+
+    <script src="./JS/control.js"></script>
+</body>
+
+</html>
