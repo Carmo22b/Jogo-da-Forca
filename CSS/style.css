@@ -9,7 +9,7 @@ body {
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background-image: url("/SRC/imgs/an-illustration-of-a-hangman-game-background-there-xRCDLkwHQ2ehDqEWxYqb0w-isNz5uAoTWGa2JMvUJNcnA.jpeg");
+    background-image: url("SRC/imgs/an-illustration-of-a-hangman-game-background-there-xRCDLkwHQ2ehDqEWxYqb0w-isNz5uAoTWGa2JMvUJNcnA.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
